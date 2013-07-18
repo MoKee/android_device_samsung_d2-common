@@ -78,3 +78,7 @@ BOARD_HAVE_AUDIENCE_A2220 := true
 # Use USB Dock Audio
 BOARD_HAVE_DOCK_USBAUDIO := true
 
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
+
